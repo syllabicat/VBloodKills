@@ -1,0 +1,10 @@
+﻿{
+  "name": "VBloodKills",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/syllabicat/VBloodKills",
+  "description": "Sends system message when killing VBlood bosses.",
+  "dependencies": [
+    "BepInEx-BepInExPack_V_Rising-1.0.0",
+    "molenzwiebel-Wetstone-1.1.0"
+  ]
+}

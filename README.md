@@ -1,6 +1,6 @@
 ﻿# VBloodKills
 
-Send system message when killing VBlood bosses.
+Sends system message when killing VBlood bosses.
 
 Use at your own risk :)
 
