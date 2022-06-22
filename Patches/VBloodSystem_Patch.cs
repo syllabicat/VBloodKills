@@ -39,11 +39,9 @@ namespace VBloodKills.Patches
             }
             else if (checkKiller)
             {
-                Plugin.Logger.LogInfo($"checkKiller true...");
                 var didSkip = false;
                 foreach (KeyValuePair<int, DateTime> kvp in lastKillerUpdate)
                 {
-                    Plugin.Logger.LogInfo($"checkKiller true lastKillerUpdate foreach...");
                     var lastUpdateTime = kvp.Value;
                     if (DateTime.Now - lastUpdateTime < TimeSpan.FromSeconds(SendMessageDelay))
                     {
